@@ -80,8 +80,8 @@ jQuery(function($) {
 	}
 
     /*
-         <%--一个div用来显示出正文的内容，使用的是.ace_ajax--%>
-         <div class="page-content-area" data-ajax-content="true"></div>
+     <%--一个div用来显示出正文的内容，使用的是.ace_ajax--%>
+     <div class="page-content-area" data-ajax-content="true"></div>
     */
 	function enableAjax() {
 		//Load content via ajax
