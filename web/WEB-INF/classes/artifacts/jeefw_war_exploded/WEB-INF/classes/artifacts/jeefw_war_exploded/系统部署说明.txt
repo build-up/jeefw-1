@@ -1,0 +1,11 @@
+ 系统说明如下：
+      1、系统源码导入Eclipse、MyEclipse等IDE发布到应用服务器，例如Tomcat上即可运行。
+      2、导入系统后请将系统编码设置为UTF-8，不是GBK。SQL导入也是UTF8编码。
+      3、导入后如果出现感叹号，请修改实际的Java Build Path。
+      4、登录页面
+           4.1、Hibernate版本访问地址：http://localhost:8080/jeefw/login.jsp， 账号：3228979148@qq.com 密码：skynet168
+           4.2、Mybatis版本访问地址：MySQL版本和Oracle版本都是http://localhost:8080/ + 项目名，账号：admin 密码：1
+      5、系统默认数据库是mysql。Hibernate版本的applicationContext.xml配置文件里的mysql用户名是root，密码是123456；Mybatis版本在dbconfig.properties修改。如果和您的不一样，请修改即可运行。
+      6、基于Bootstrap的Java企业通用开发平台框架只引用了一个第三方jar包(sina.jar)，这个第三方jar包的源码在附件压缩包里。
+      7、系统运行在JDK7+和Tomcat7+。
+      8、开发环境任何地方不要包含非英文路径。
